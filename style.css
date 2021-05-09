@@ -4,5 +4,7 @@ body {
 }
 
 .header {
-  background: #aaaaaa
+  background: #aaaaaa;
+  text-align: center;
+  padding: 15px;
 }
