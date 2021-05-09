@@ -4,7 +4,22 @@ body {
 }
 
 .header {
-  background: #aaaaaa;
-  text-align: center;
+  background: #ff9f4c;
   padding: 15px;
+}
+
+.header:hover {
+  background: #ff9f4c5c;
+}
+
+.header a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: #ff9f4c;
 }
