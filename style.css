@@ -5,21 +5,23 @@ body {
 
 .header {
   background: #ff9f4c;
-  padding: 20px;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
 }
 
-.header:hover {
-  background: #ff9f4c5c;
-}
 
 .header a {
-  display: contents;
+  display: block;
+  float: left;
+  background: #ff9f4c;
   color: white;
   text-align: center;
-  padding: 14px 20px;
+  padding: 20px 20px;
   text-decoration: none;
 }
 
 .header a:hover {
+  background: white;
   color: #ff9f4c;
 }
