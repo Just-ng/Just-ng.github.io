@@ -1,27 +1,41 @@
-body {
+* {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
 
-.header {
-  background: #ff9f4c;
+#navbar {
+  background-color: #ff9f4c;
   overflow: hidden;
   position: sticky;
-  top: 0;
 }
 
-
-.header a {
-  display: block;
+#navbar a {
   float: left;
-  background: #ff9f4c;
+  display: block;
+  background-color: #ff9f4c;
   color: white;
-  text-align: center;
-  padding: 20px 40px;
   text-decoration: none;
+  font-size: 18px;
+  width: 33.3%;
+  padding: 20px 0px;
+  text-align: center;
 }
 
-.header a:hover {
-  background: white;
+#navbar a:hover {
+  background-color: white;
   color: #ff9f4c;
+}
+
+@media (max-width: 400px) {
+  #navbar a {
+    float: none;
+    display: block;
+    background-color: #ff9f4c;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+  }
 }
