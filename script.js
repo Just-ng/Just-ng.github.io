@@ -18,7 +18,7 @@ function animateSlides() {
     if (slideIndex > slides.length) {slideIndex = 1;};
     slides[slideIndex].classList.remove(" ");
     slides[slideIndex].classList.add("active");
-    alert("hello");
+    alert("test");
     setTimeout(animateSlides, 1);
 }
 
