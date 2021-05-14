@@ -21,3 +21,4 @@ function animateSlides() {
     alert("hello");
     setTimeout(animateSlides, 1);
 }
+
